@@ -1,3 +1,6 @@
+@import "/src/vars.css";
+
+
 .navbar {
     position: relative;
     display: flex;
@@ -7,7 +10,8 @@
     z-index: 2;
     width: 100%;  /* Full width */
     margin: 0;    /* Remove margin */
-    background: linear-gradient(135deg, #4b6cb7, #182848); /* Gradient background */
+    background-color: var(--colour-secondary);
+    /* background: linear-gradient(135deg, #4b6cb7, #182848); Gradient background */
     border: none; /* Ensure no border */
     outline: none; /* Ensure no outline */
   }
@@ -24,6 +28,7 @@
   }
   
   .menuItems {
+    list-style: none;
     display: flex;
     gap: 47px;
     list-style: none;
@@ -33,6 +38,12 @@
     font-size: 25px;
     color: var(--colour-text);
     text-decoration: none;
+    transition: pink 0.3s ease, transform 0.3s ease;
+  }
+
+  .menuItems a:hover {
+    color: var(--colour-dark);
+    transform: scale(1.1); /* Slightly enlarge on hover */
   }
 
   

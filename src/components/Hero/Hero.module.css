@@ -1,41 +1,42 @@
+@import "/src/vars.css";
 
-.container{
-   
+.container {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 50px; /* Increased top margin for more space */
     z-index: 1;
     margin-left: 10%;
-    margin-right: 10%
+    margin-right: 10%;
+    gap: 40px; /* Added gap between content and image */
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     color: white;
+    max-width: 600px; /* Limit max width for better readability */
 }
 
-.title{
+.title {
     font-size: 72px;
     font-weight: 900;
     margin-bottom: 33px;
-    /* font-family: var(--font-roboto); */
-    background: linear-gradient(90deg,rgba(255,255,255,1) 70%,
-     rgba(106, 22, 22, 0)120%); 
-     -webkit-text-fill-color: transparent;
-     -webkit-background-clip: text;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 70%, rgba(106, 22, 22, 0) 120%);
+    -webkit-background-clip: text; /* Vendor prefix for WebKit browsers */
+    background-clip: text; /* Standard property for compatibility */
+    -webkit-text-fill-color: transparent; /* Fills text with transparent color */
 }
 
-.description{
+.description {
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-bottom: 52px;
+    margin-bottom: 40px; /* Reduced bottom margin for better spacing */
 }
 
-.contactBtn{
+.contactBtn {
     text-decoration: none;
     background-color: var(--colour-primary);
     color: var(--colour-text);
@@ -44,11 +45,16 @@
     font-weight: 600;
     padding: 17px 26px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
 }
 
-.heroImg{
+.contactBtn:hover {
+    background-color: var(--colour-dark);
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.heroImg {
     width: 30%;
-    /* height: 50%; */
     z-index: 1;
     border-radius: 50px;
     animation-name: floating;
@@ -57,35 +63,46 @@
     animation-timing-function: ease-in-out;
 }
 
-@keyframes floating{
+@keyframes floating {
     0% {
-        transform: translate(0,0px);
+        transform: translate(0, 0px);
     }
-
-    50%{
-        transform: translate(0,10px);
+    50% {
+        transform: translate(0, 5px);
     }
-
-    100%{
-        transform: translate(0,-0px);
+    100% {
+        transform: translate(0, 0px);
     }
 }
 
-  
-  @media screen and (max-width: 830px) {
+@media screen and (max-width: 830px) {
     .container {
-      flex-direction: column-reverse;
-      padding:50px;
-      
+        flex-direction: column-reverse;
+        padding: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
-  
+
     .content {
-      align-items: center;
+        align-items: center;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+
+    .description{
+        font-size:25px;
+        font-weight: normal;
+    }
+
+    .content{
+        font-size: 5px;
     }
 
     .heroImg {
         width: 250px;
         margin: auto;
-       
+        padding-bottom: 30px; /* Reduced padding for better spacing */
     }
-  }
+}

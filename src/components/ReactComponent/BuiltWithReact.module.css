@@ -1,0 +1,32 @@
+.container {
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #61dafb; /* React Blue */
+  }
+  
+  .icon {
+    font-size: 24px;
+    animation: spin 5s linear infinite;
+  }
+
+  .text{
+    font-style: italic;
+    font-weight: normal;
+  }
+  
+  /* React Logo Spin Animation */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

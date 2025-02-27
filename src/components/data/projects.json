@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Netflix clone project",
+       "imageSrc": "projects/netflix.png",
+
+        "description": "This project is a replica of the popular streaming service, Netflix, created using modern web development technologies. I focussed on creating a sleek and intuitive UI that mimics the original Netflix layout, enhancing user experience.",
+        "skills": ["HTML", "CSS", "JavaScript" ],
+        "source": "https://github.com/suecaina/https---github.com-suecaina-Netflix-Clone"
+    },
+
+    {
+        "title": "Form Validation project",
+       "imageSrc": "projects/updated_form.png",
+
+        "description": "This project implements a simple form validation using JavaScript. It ensures that user inputs are correct when the  <span style='color: red;'>Register</span> button is clicked. If any inputs are incorrect, clear red text appears to inform the user about the specific errors, guiding them to correct the information before submission. ",
+        "skills": ["HTML", "CSS", "JavaScript", "Node" ],
+        "source": "https://github.com/suecaina/form_validation.git"
+    },
+
+    {
+        "title": "Responsive Website project",
+       "imageSrc": "projects/travels.png",
+
+        "description": "This modern travel website was created using HTML, CSS, and JavaScript, featuring consistent branding colors for a fresh look. It includes interactive elements and clear calls to action, enhancing user engagement and making it easy for visitors to explore and book their next adventure. ",
+        "skills": ["HTML", "CSS", "JavaScript" ],
+        "source": "https://github.com/suecaina/https---github.com-suecaina-travelswebsite"
+    }
+
+
+
+
+
+
+]
