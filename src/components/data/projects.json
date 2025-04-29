@@ -9,6 +9,15 @@
     },
 
     {
+        "title": "Arksen product project",
+       "imageSrc": "projects/arksen.png",
+
+        "description": "A conversion-focused product page for Arksen! This design balances clean aesthetics, usability, and an intuitive shopping experience, ensuring key product details stand out while keeping the user journey seamless.",
+        "skills": ["HTML", "CSS", "JavaScript" ],
+        "source": "https://github.com/suecaina/arksen"
+    },
+
+    {
         "title": "Form Validation project",
        "imageSrc": "projects/updated_form.png",
 
