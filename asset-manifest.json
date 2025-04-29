@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79798400.css",
+    "main.js": "/static/js/main.6b600d82.js",
+    "static/js/156.311b1047.chunk.js": "/static/js/156.311b1047.chunk.js",
+    "static/media/updated_form.png": "/static/media/updated_form.475b0f07c77ad72376d8.png",
+    "static/media/suecaina.png": "/static/media/suecaina.f78ce4a476bf15542d93.png",
+    "static/media/netflix.png": "/static/media/netflix.1862088422d7c3bd155c.png",
+    "static/media/arksen.png": "/static/media/arksen.ccfef6afa0f9837ce6de.png",
+    "static/media/travels.png": "/static/media/travels.6626b44ce11bfca7ff71.png",
+    "static/media/coding.png": "/static/media/coding.6b80dc22339b227d4ce7.png",
+    "static/media/project.png": "/static/media/project.6b80dc22339b227d4ce7.png",
+    "static/media/trailfinders.png": "/static/media/trailfinders.209369eec05addce7237.png",
+    "static/media/precioussoles.jpeg": "/static/media/precioussoles.e865f92cd4e4d14fa4a8.jpeg",
+    "index.html": "/index.html",
+    "main.79798400.css.map": "/static/css/main.79798400.css.map",
+    "main.6b600d82.js.map": "/static/js/main.6b600d82.js.map",
+    "156.311b1047.chunk.js.map": "/static/js/156.311b1047.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79798400.css",
+    "static/js/main.6b600d82.js"
+  ]
+}
